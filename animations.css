@@ -1,0 +1,86 @@
+/* Header  */
+header .header {
+    position: relative;
+    animation: head;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes head {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 0 ;
+    }
+}
+
+/* Section A  */
+
+#a .tradition {
+    animation: tradition;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes tradition {
+    0% {
+        opacity: 0;
+        left: -1000px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+#a .container img{
+
+animation: a-img;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes a-img {
+0% {
+    opacity: 0;
+    right: -1000px;
+}
+
+100% {
+    opacity: 1;
+    right: 0px;
+}
+}
+
+
+/* Section B  */
+#b {
+    animation: sec-b;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: relative;
+
+
+}
+
+@keyframes sec-b {
+    0% {
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
